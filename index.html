@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio di Francesco Lauricella - Digital Designer, Graphic Design, UX/UI e AI Automation.">
+  <title>Francesco Lauricella | Digital Designer & Portfolio</title>
+
+  <!-- Favicon personalizzata -->
+  <link rel="icon" type="image/jpeg" href="assets/img/logo.jpeg">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+  <!-- Bootstrap 5 & Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <a href="#main-content" class="visually-hidden-focusable skip-link">Salta al contenuto principale</a>
+
+  <header class="site-header sticky-top">
+    <nav class="navbar navbar-expand-lg" aria-label="Navigazione principale">
+      <div class="container">
+        <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="index.html">
+          <img src="assets/img/logo.jpeg" alt="Logo FL" class="brand-logo">
+          <span>Francesco Lauricella</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Apri menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav align-items-lg-center gap-lg-3">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">Su di me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#progetti">Progetti</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="cv.html">Curriculum Vitae</a></li>
+            <li class="nav-item"><a class="nav-link" href="contatti.html">Contatti</a></li>
+            <li class="nav-item ms-lg-2 mt-3 mt-lg-0 d-flex align-items-center">
+              <button id="theme-toggle" class="theme-switch" aria-label="Attiva Dark Mode" title="Cambia tema">
+                <i class="bi bi-sun-fill icon-sun"></i>
+                <i class="bi bi-moon-stars-fill icon-moon"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-flex">
+          <div class="hero-content">
+            <div class="status-badge mb-3">
+              <span class="status-dot"></span> Disponibile per nuovi progetti
+            </div>
+            <h1 class="display-4 fw-extrabold mb-3">
+              Ciao, sono Francesco.<br>
+              <span class="text-gradient">Digital Designer.</span>
+            </h1>
+            <p class="h6 text-primary-accent fw-semibold mb-3">
+              Graphic Design &bull; UX/UI &bull; AI Automation
+            </p>
+            <p class="lead text-secondary mb-4">
+              Progetto identità visive, esperienze digitali ed e-commerce, integrando creatività, usabilità e intelligenza artificiale per trasformare le idee in soluzioni concrete.
+            </p>
+            <div class="d-flex flex-wrap gap-3">
+              <a href="#progetti" class="btn btn-primary-custom btn-lg">Esplora i progetti</a>
+              <a href="contatti.html" class="btn btn-outline-custom btn-lg">Contattami</a>
+            </div>
+          </div>
+          
+          <div class="hero-visual text-center">
+            <div class="profile-frame-art">
+              <img src="foto.jpg" alt="Francesco Lauricella" class="img-fluid profile-img-custom">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-padding bg-light-subtle">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <span class="badge-pill mb-2">Su di me</span>
+          <h2 class="fw-bold">I Pilastri del mio Metodo</h2>
+          <p class="text-secondary">Unire visione strategica e sensibilità estetica per dare vita a progetti unici</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="about-card p-4 rounded-4 shadow-sm h-100 text-center">
+              <div class="icon-box mb-3 text-primary-accent"><i class="bi bi-lightbulb display-5"></i></div>
+              <h3 class="h4 fw-bold mb-3">Originalità</h3>
+              <p class="text-secondary mb-0">Ogni concept visivo e interfaccia nasce da un'idea fresca e fuori dagli schemi, pensata per distinguersi nel panorama digitale.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="about-card p-4 rounded-4 shadow-sm h-100 text-center">
+              <div class="icon-box mb-3 text-primary-accent"><i class="bi bi-gem display-5"></i></div>
+              <h3 class="h4 fw-bold mb-3">Unicità</h3>
+              <p class="text-secondary mb-0">Soluzioni sartoriali cucite su misura per ogni brand ed e-commerce, valorizzando l'identità specifica di ciascun progetto.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="about-card p-4 rounded-4 shadow-sm h-100 text-center">
+              <div class="icon-box mb-3 text-primary-accent"><i class="bi bi-palette display-5"></i></div>
+              <h3 class="h4 fw-bold mb-3">Creatività</h3>
+              <p class="text-secondary mb-0">La fusione tra estetica, usabilità UX/UI e l'integrazione di strumenti di intelligenza artificiale per trasformare la fantasia in realtà.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="progetti" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <span class="badge-pill mb-2">Portfolio</span>
+          <h2 class="fw-bold">I Miei Progetti</h2>
+          <p class="text-secondary">Case study, design industriale, grafica, 3D render e automazioni AI</p>
+        </div>
+
+        <div class="projects-grid bento-layout">
+          <article class="project-card project-card--featured">
+            <div class="project-card__image-wrapper">
+              <img src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?auto=format&fit=crop&w=1000&q=80" alt="LookBook App" loading="lazy">
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span>UX/UI Design</span>
+                <span>Copywriting</span>
+              </div>
+              <h3 class="h4 fw-bold mt-2">LookBook: App Second Hand & Copywriting</h3>
+              <p class="text-secondary">Progetto completo di UX/UI design e copywriting persuasivo per un'applicazione innovativa dedicata alla moda sostenibile e allo scambio di abbigliamento usato.</p>
+              <a href="progetto-copywriting.html" class="project-link">Visualizza Case Study <i class="bi bi-file-earmark-pdf-fill ms-1"></i></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__image-wrapper">
+              <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80" alt="Design Portfolio" loading="lazy">
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span>Design Industriale</span>
+                <span>Graphic & 3D Render</span>
+              </div>
+              <h3 class="h4 fw-bold mt-2">Archivio Progetti Universitari</h3>
+              <p class="text-secondary">Raccolta di prototipi in legno, lampade di design riciclate, locandine istituzionali, etichette e render 3D CAD/CAM.</p>
+              <a href="progetto-design.html" class="project-link">Visualizza PDF <i class="bi bi-file-earmark-pdf-fill ms-1"></i></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__image-wrapper">
+              <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=800&q=80" alt="Accessibilità Web" loading="lazy">
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span>Accessibility</span>
+                <span>WCAG 2.1 AA</span>
+              </div>
+              <h3 class="h4 fw-bold mt-2">Audit Accessibilità JoJobRT (Pt. 1)</h3>
+              <p class="text-secondary">Analisi approfondita e mappatura delle barriere digitali per migliorare l'inclusività della piattaforma di carpooling.</p>
+              <a href="progetto-jojob1.html" class="project-link">Visualizza PDF <i class="bi bi-file-earmark-pdf-fill ms-1"></i></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__image-wrapper">
+              <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=800&q=80" alt="Accessibilità Web 2" loading="lazy">
+            </div>
+          <div class="project-card__body">
+              <div class="project-card__tags">
+                <span>Accessibility</span>
+                <span>Metodologia & Analisi</span>
+              </div>
+              <h3 class="h4 fw-bold mt-2">Audit Accessibilità JoJobRT (Pt. 2)</h3>
+              <p class="text-secondary">Seconda parte dell'audit con metodologia, analisi dettagliata delle pagine e sintesi finale.</p>
+              <a href="progetto-jojob2.html" class="project-link">Visualizza PDF <i class="bi bi-file-earmark-pdf-fill ms-1"></i></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__image-wrapper">
+              <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=80" alt="Mindfulness App" loading="lazy">
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span>UX Discovery</span>
+                <span>Analisi & Sitemap</span>
+              </div>
+              <h3 class="h4 fw-bold mt-2">Buddhify App Redesign (Pt. 1)</h3>
+              <p class="text-secondary">Analisi euristica, sitemap e ricerca iniziale per migliorare l'esperienza utente dell'app di meditazione.</p>
+              <a href="progetto-buddhify1.html" class="project-link">Visualizza PDF <i class="bi bi-file-earmark-pdf-fill ms-1"></i></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__image-wrapper">
+              <img src="https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?auto=format&fit=crop&w=800&q=80" alt="Buddhify Parte 2" loading="lazy">
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span>UX Discovery</span>
+                <span>Personas & Journey</span>
+              </div>
+              <h3 class="h4 fw-bold mt-2">Buddhify App Redesign (Pt. 2)</h3>
+              <p class="text-secondary">Definizione Personas, User Journey map aggiornate, opportunità emerse e sitemap ottimizzata.</p>
+              <a href="progetto-buddhify2.html" class="project-link">Visualizza PDF <i class="bi bi-file-earmark-pdf-fill ms-1"></i></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__image-wrapper">
+              <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=800&q=80" alt="WanderWise Travel" loading="lazy">
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span>Brand Identity</span>
+                <span>Social Kit</span>
+              </div>
+              <h3 class="h4 fw-bold mt-2">WanderWise: Viaggi Sostenibili</h3>
+              <p class="text-secondary">Progetto di grafica UX/UI, creazione logo, palette colori, tipografia e social kit per un'agenzia di viaggi consapevoli.</p>
+              <a href="progetto-wanderwise.html" class="project-link">Visualizza PDF <i class="bi bi-file-earmark-pdf-fill ms-1"></i></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__image-wrapper">
+              <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80" alt="Risparmio Alimentare" loading="lazy">
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span>UX/UI Intro</span>
+                <span>Landing Page</span>
+              </div>
+              <h3 class="h4 fw-bold mt-2">Il Valore del Cibo</h3>
+              <p class="text-secondary">Progettazione di una landing page e prototipo interattivo focalizzato sulla riduzione degli sprechi alimentari e sulla sostenibilità.</p>
+              <a href="progetto-cibo.html" class="project-link">Visualizza PDF <i class="bi bi-file-earmark-pdf-fill ms-1"></i></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__image-wrapper">
+              <img src="assets/img/provvigionamento-intelligenza-artificiale-1024x512.jpg" alt="AI Automation" loading="lazy">
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__tags">
+                <span>AI Automation</span>
+                <span>n8n & Gemini</span>
+              </div>
+              <h3 class="h4 fw-bold mt-2">Assistente Email & Calendario AI</h3>
+              <p class="text-secondary">Architettura di automazione intelligente con n8n che integra Discord, Google Gemini e Google Workspace per gestire appuntamenti.</p>
+              <a href="progetto-ai.html" class="project-link">Visualizza PDF <i class="bi bi-file-earmark-pdf-fill ms-1"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sezione: Gallery con inquadratura sulla tavoletta grafica a sinistra -->
+    <section id="gallery" class="section-padding bg-light-subtle">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <span class="badge-pill mb-2">Visual Gallery</span>
+          <h2 class="fw-bold">Galleria Lavori & Grafica</h2>
+          <p class="text-secondary">Scatti dai processi di stampa, branding e intelligenza artificiale</p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Prima immagine a sinistra: WORKFOTO.jpeg spostata verso il basso (75%) per mostrare la tavoletta -->
+          <div class="col-md-4">
+            <div class="gallery-item rounded-4 overflow-hidden shadow-sm" style="height: 250px;">
+              <img src="assets/img/WORKFOTO.jpeg" alt="Grafica Digitale e Tavoletta Grafica" class="img-fluid w-100 h-100 object-fit-cover" style="object-position: center 75%;" loading="lazy">
+            </div>
+          </div>
+          <!-- Immagine centrale (Invariata) -->
+          <div class="col-md-4">
+            <div class="gallery-item rounded-4 overflow-hidden shadow-sm" style="height: 250px;">
+              <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=800&q=80" alt="UX/UI Wireframing" class="img-fluid w-100 h-100 object-fit-cover" loading="lazy">
+            </div>
+          </div>
+          <!-- Prima immagine a destra: AIFOTO.jpeg centrata sull'ologramma AI e il tablet -->
+          <div class="col-md-4">
+            <div class="gallery-item rounded-4 overflow-hidden shadow-sm" style="height: 250px;">
+              <img src="assets/img/AIFOTO.jpeg" alt="Intelligenza Artificiale e Data Analysis" class="img-fluid w-100 h-100 object-fit-cover" style="object-position: center 60%;" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contatti" class="section-padding">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="contact-card p-4 p-md-5 rounded-4 shadow-sm">
+              <div class="text-center mb-4">
+                <img src="foto.jpg" alt="Francesco Lauricella" class="rounded-circle shadow-sm border border-3 border-primary mb-3" style="width: 90px; height: 90px; object-fit: cover; object-position: center top;">
+                <span class="badge-pill mb-2">Contattami</span>
+                <h2 class="fw-bold mb-2">Iniziamo un nuovo progetto insieme</h2>
+                <p class="text-secondary">Compila il form sottostante per inviarmi un messaggio diretto.</p>
+              </div>
+
+              <form action="https://formsubmit.co/flauricella3661@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="Nuovo messaggio dal tuo Portfolio!">
+                <input type="hidden" name="_captcha" value="false">
+
+                <div class="mb-3">
+                  <label for="nome" class="form-label fw-semibold">Il tuo Nome</label>
+                  <input type="text" class="form-control form-control-lg" id="nome" name="nome" required placeholder="Mario Rossi">
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label fw-semibold">La tua Email</label>
+                  <input type="email" class="form-control form-control-lg" id="email" name="email" required placeholder="mario@example.com">
+                </div>
+
+                <div class="mb-4">
+                  <label for="messaggio" class="form-label fw-semibold">Messaggio</label>
+                  <textarea class="form-control form-control-lg" id="messaggio" name="messaggio" rows="4" required placeholder="Raccontami del tuo progetto..."></textarea>
+                </div>
+
+                <div class="d-grid">
+                  <button type="submit" class="btn btn-primary-custom btn-lg">Invia Messaggio</button>
+                </div>
+              </form>
+
+              <div class="text-center mt-4 pt-3 border-top">
+                <p class="text-secondary small mb-2">Oppure contattami direttamente via:</p>
+                <div class="d-flex justify-content-center flex-wrap gap-3">
+                  <a href="mailto:flauricella3661@gmail.com" class="text-decoration-none fw-medium text-primary-accent"><i class="bi bi-envelope-fill me-1"></i> Email</a>
+                  <a href="tel:3208284663" class="text-decoration-none fw-medium text-primary-accent"><i class="bi bi-telephone-fill me-1"></i> Telefono</a>
+                  <a href="https://www.linkedin.com/in/francesco-lauricella-258b97266" target="_blank" rel="noopener" class="text-decoration-none fw-medium text-primary-accent"><i class="bi bi-linkedin me-1"></i> LinkedIn</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+      <p class="mb-0">&copy; 2026 Francesco Lauricella. Tutti i diritti riservati.</p>
+      <div class="social-links d-flex gap-3">
+        <a href="mailto:flauricella3661@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+        <a href="https://www.linkedin.com/in/francesco-lauricella-258b97266" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const userTheme = localStorage.getItem('theme');
+    if (userTheme === 'dark') { document.body.classList.add('dark-mode'); }
+    themeToggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+      localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
