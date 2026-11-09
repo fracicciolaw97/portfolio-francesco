@@ -3,7 +3,7 @@
  *
  * Il QR di ogni partner porta a:  .../portfolio-francesco/?ref=CODICE
  * Lo script ricorda il codice per 90 giorni (vale il PRIMO partner) e lo aggiunge
- * al modulo di contatto e all'oggetto delle email. Il sito non cambia aspetto.
+ * al modulo di contatto, all'oggetto delle email e al messaggio WhatsApp. Il sito non cambia aspetto.
  */
 (function () {
   var STORAGE_KEY = 'partnerRef';
@@ -55,6 +55,13 @@
       form.appendChild(campo);
       var oggetto = form.querySelector('input[name="_subject"]');
       if (oggetto) oggetto.value = 'Nuovo cliente dal Portfolio - codice partner ' + codice;
+    });
+
+    // WhatsApp: messaggio già pronto con il codice del partner
+    document.querySelectorAll('a[href^="https://wa.me/"]').forEach(function (link) {
+      var base = link.getAttribute('href').split('?')[0];
+      link.setAttribute('href', base + '?text=' + encodeURIComponent(
+        'Ciao Francesco, vorrei informazioni su un progetto. Codice partner: ' + codice));
     });
 
     document.querySelectorAll('a[href^="mailto:"]').forEach(function (link) {
